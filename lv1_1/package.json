@@ -1,0 +1,19 @@
+{
+  "name": "jsvsts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "jstest": "node --trace-elements-transitions src/jsArray.js",
+    "tstest": "node --trace-elements-transitions dist/tsArray.js",
+    "pretstest": "tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.8.0"
+  }
+}
